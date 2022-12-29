@@ -1,3 +1,4 @@
 short,build command,debug command
 go,go build -o %o %s,./%o
 gcc,gcc %s -o %o,./%o
+java,javac %s,java %o
